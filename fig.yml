@@ -1,4 +1,4 @@
-nsqtohipchat:
+nsqtoslack:
   build: .
   links:
     - nsqlookupd

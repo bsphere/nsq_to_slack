@@ -11,13 +11,13 @@
 		},
 		{
 			"ImportPath": "github.com/bitly/go-nsq",
-			"Comment": "v1.0.1-1-g796ccde",
-			"Rev": "796ccde59447abd5b8d1be4b043172647fe5d8ac"
+			"Comment": "v1.0.4-9-g8c8eba2",
+			"Rev": "8c8eba2ac6823ce1ba17b3a353eaf5811a21a7f5"
 		},
 		{
 			"ImportPath": "github.com/mreiferson/go-snappystream",
-			"Comment": "v0.2.2-5-g1b797ca",
-			"Rev": "1b797cacee7ec50520c163fdbf7743e35800249c"
+			"Comment": "v0.2.3",
+			"Rev": "028eae7ab5c4c9e2d1cb4c4ca1e53259bbe7e504"
 		}
 	]
 }

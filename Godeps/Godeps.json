@@ -1,0 +1,23 @@
+{
+	"ImportPath": "github.com/bsphere/nsq_to_slack",
+	"GoVersion": "go1.4",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/Bowery/slack",
+			"Rev": "12fa50d4146c25c17ca03e924b0c563d0d4cf57b"
+		},
+		{
+			"ImportPath": "github.com/bitly/go-nsq",
+			"Comment": "v1.0.1-1-g796ccde",
+			"Rev": "796ccde59447abd5b8d1be4b043172647fe5d8ac"
+		},
+		{
+			"ImportPath": "github.com/mreiferson/go-snappystream",
+			"Comment": "v0.2.2-5-g1b797ca",
+			"Rev": "1b797cacee7ec50520c163fdbf7743e35800249c"
+		}
+	]
+}

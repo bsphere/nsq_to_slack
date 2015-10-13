@@ -29,8 +29,8 @@ func main() {
 
 	client := slack.NewClient(token)
 
-	nsqChannel := "nsq_to_slack" + strconv.FormatInt(time.Now().Unix(), 10) +
-		"#ephemeral"
+	nsqChannel := "nsq_to_slack" + strconv.FormatInt(time.Now().Unix(), 10) //+
+	//		"#ephemeral"
 
 	c, err := nsq.NewConsumer(topic, nsqChannel, nsq.NewConfig())
 	if err != nil {
